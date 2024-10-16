@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lR | grep ^d | wc -l
+find . -type f -exec ls -t1 {} + | head
