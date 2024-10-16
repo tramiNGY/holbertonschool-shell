@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -print | wc -l
+ls -la | wc -l
