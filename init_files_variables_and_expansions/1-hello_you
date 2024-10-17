@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Hello $LOGNAME"
+echo "Hello $(id -n -u)"
